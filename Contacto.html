@@ -1,0 +1,59 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" type="text/css" href="Contacto.css">
+    <!-- ICONO PESTAÑA-->
+    <link rel="icon" type="image/x-icon" href="file:///C:/Users/PC/Downloads/2275251.png">
+    <!-- ICONOS REDES SOCIALES-->
+    <link rel="stylesheet" href="font.css">
+</head>
+<body>
+
+
+<form action="" method="post" > 
+        <div"> 
+            <p>Nombre</p> 
+            <input type="text" id="Nombre" placeholder="Ingrese su Nombre" required> 
+        </div>
+
+        <div class="formulario"> 
+            <p>Telefono</p> 
+            <input type="number" id="Telefono" placeholder="Ingrese su Numero" required> 
+        </div>
+
+        <div> 
+            <p>Correo electrónico</p> 
+            <input type="email" id="email" placeholder="ejemplo@email.com" required> 
+        </div> 
+
+        <div> 
+            <p>Motivo de Contacto</p> 
+            <input type="text" id="title" placeholder="Problema/Consulta" required > 
+        </div>
+
+        <div> 
+            <p>Solicitud</p> 
+            <input type="text" id="Mensaje" placeholder="Escribe tu mensaje aquí."> 
+        </div> 
+        <button type="submit" onclick='EnviarFormulario()' value='Enviar' id="BotonEnviar">Enviar mensaje</button>
+    </form>
+
+<div id="error"></div>
+    
+<script src="Contacto.js"></script>
+<p id="demo"></p>
+    
+<!-- REDES SOCIALES-->
+<div class="Redes-sociales">
+    <a href="https://www.facebook.com/manu.gomez.10004/" class="icon icon-facebook2" target="_blank"></a>
+    <a href="https://www.instagram.com/manugoomeezz/" class="icon icon-instagram" target="_blank"></a>
+    <a href="https://wa.me/+5493517680824" class="icon icon-whatsapp" target="_blank"></a>
+    <a href="https://t.me/ManuelGomezPerez" class="icon icon-telegram" target="_blank"></a>
+
+</div>
+
+</body>
+</html>

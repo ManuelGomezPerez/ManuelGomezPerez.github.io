@@ -1,0 +1,111 @@
+/**FONDO*/
+body{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQL4LvRzbacMFGchWlaP8lzl_exKzIV1I434w&usqp=CAU);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    color:black;
+}
+/**TITULO*/
+.titulo{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/**SUBTITULO*/
+.parrafo{
+    text-align:center;
+    font-family: 'Explora', cursive;
+    color:darkblue;
+    font-size: 40px;
+}
+
+/**FOTO*/
+.foto{
+    text-align:center;
+}
+
+/**MENU DESPLEGABLE*/
+.Menu-desplegable{
+    display: inline-block;
+    position: relative;
+}
+.Contenido-del-menu{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.Menu-desplegable:hover .Contenido-del-menu{
+    display: block;
+}
+.Contenido-del-menu a {
+    display: block;
+    color: aliceblue;
+    padding: 5px;
+    text-decoration: none;
+}
+.Contenido-del-menu a:hover {
+    background-color: black;
+}
+/**FIN MENU DESPLEGABLE*/
+
+/**REDES SOCIALES*/
+.Redes-sociales{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.icon{
+    color:white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+.icon-facebook2{
+    background: #3b5998;
+}
+.icon-instagram{
+    background: 
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+}
+.icon-whatsapp{
+    background: #00bb2d;
+}
+.icon-telegram{
+    background: #229ED9;
+}
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 0.5rem rgba(0,0,0,0.42)
+}
+/**FIN REDES SOCIALES*/
+
+/**BOTON*/
+.Boton-Menu{
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px 10px 10px 10px;
+    font-size: 15px;
+    cursor: pointer;
+    width: 200px;
+    height: 40px;
+}
